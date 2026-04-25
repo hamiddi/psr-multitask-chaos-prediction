@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🚀 PSR Multitask Chaos Prediction
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
@@ -56,20 +55,20 @@ psr-multitask-chaos-prediction/
 ## 🔄 Workflow
 
 ```
-Scalar Signal x(t)
-        ↓
+       Scalar Signal x(t)
+             ↓
 Phase-Space Reconstruction (PSR)
-        ↓
-Sliding Windows
-        ↓
-Shared Encoder (RNN)
-       /          \
-      /            \
-Classification   Forecasting
-      ↓             ↓
-Regime Label   Future Trajectory
-      ↓             ↓
-Early Warning + Evaluation
+             ↓
+       Sliding Windows
+             ↓
+     Shared Encoder (RNN)
+       /           \
+      /             \
+Classification    Forecasting
+      ↓               ↓
+Regime Label    Future Trajectory
+      ↓               ↓
+   Early Warning + Evaluation
 ```
 
 ---
@@ -125,7 +124,3 @@ H. Ismail, A. Harb, and M. Bikdash,
 
 Hamid Ismail  
 North Carolina A&T State University
-=======
-# psr-multitask-chaos-prediction
-A hybrid deep learning framework for early detection of instability and chaos in nonlinear dynamical systems using phase-space reconstruction, multitask learning, and attention-based classification. Includes simulation of the Lorenz system, dataset generation, forecasting, and early-warning evaluation.
->>>>>>> 8808b3c77137c1b523035b9b8d4fff5dbe92dbec
