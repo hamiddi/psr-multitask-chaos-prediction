@@ -1,7 +1,9 @@
 """
+Paper title: Attention-Based Multitask Learning with Phase-Space Reconstruction for Early Detection of Instability and Chaos in the Lorenz System
+Authors: Hamid D. Ismail, Ahmad Harb, Marwan Bikdash
+April 2026
 ========================================================================
 PSR + HIERARCHICAL MULTITASK DEEP LEARNING FOR 3-CLASS REGIME PREDICTION
-FULLY MERGED COMPLETE SCRIPT WITH COMMENTS
 ========================================================================
 
 3-Class regime definition
