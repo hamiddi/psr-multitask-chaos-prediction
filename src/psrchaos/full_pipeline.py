@@ -1,7 +1,10 @@
 """
-Paper title: Attention-Based Multitask Learning with Phase-Space Reconstruction for Early Detection of Instability and Chaos in the Lorenz System
+####################################################################################
+Paper title: Attention-Based Multitask Learning with Phase-Space Reconstruction for 
+             Early Detection of Instability and Chaos in the Lorenz System
 Authors: Hamid D. Ismail, Ahmad Harb, Marwan Bikdash
 April 2026
+###################################################################################
 ========================================================================
 PSR + HIERARCHICAL MULTITASK DEEP LEARNING FOR 3-CLASS REGIME PREDICTION
 ========================================================================
@@ -189,8 +192,8 @@ class Config:
     random_seed: int = 42
 
     # Multitask loss weights
-    lambda_class: float = 1.0
-    lambda_forecast: float = 1.0
+    lambda_class: float = 2.0
+    lambda_forecast: float = 0.5
     lambda_phase: float = 0.2
 
     # Chaotic threshold selection

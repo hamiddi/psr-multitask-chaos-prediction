@@ -103,6 +103,49 @@ Includes plots, metrics, and evaluation files.
 
 ---
 
+## Additional Experiments
+
+The repository also includes additional experiments designed to address generalization, baselines, loss-weight selection, robustness, and computational cost.
+
+Run the full additional experiment suite:
+
+```bash
+PYTHONPATH=src python scripts/run_additional_experiments.py
+```
+
+For a quick verification run:
+
+```bash
+PYTHONPATH=src python scripts/run_additional_experiments.py --fast
+```
+
+The outputs are saved to:
+
+```text
+psr_ssm_outputs/additional_experiments/
+├── independent_parameter_region_test.csv
+├── baseline_model_comparison.csv
+├── loss_weight_sensitivity.csv
+├── multitask_gradient_cosine_similarity.csv
+├── noise_robustness.csv
+├── latent_space_pca.csv
+├── computational_complexity.csv
+├── additional_systems_summary.csv
+└── *.png
+```
+
+These files support the revision by adding:
+
+- independent held-out parameter-region testing,
+- baseline comparisons with LSTM, CNN-LSTM, Transformer, and ESN,
+- loss-weight sensitivity analysis,
+- multitask gradient-alignment diagnostics,
+- noise robustness evaluation,
+- latent-space visualization of class separability,
+- computational complexity and inference-time reporting,
+- additional nonlinear-system simulation support for Rossler, Duffing, and Mackey-Glass systems.
+
+
 ## 📄 Citation
 
 ```
