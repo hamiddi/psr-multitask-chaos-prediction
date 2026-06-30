@@ -43,12 +43,12 @@ psr-multitask-chaos-prediction/
 ├── LICENSE
 ├── .gitignore
 ├── scripts/
-│   ├── run\_experiment.py
-│   └── run\_fast\_smoke\_test.py
+│   ├── run\\\_experiment.py
+│   └── run\\\_fast\\\_smoke\\\_test.py
 └── src/
     └── psrchaos/
-        ├── \_\_init\_\_.py
-        └── full\_pipeline.py
+        ├── \\\_\\\_init\\\_\\\_.py
+        └── full\\\_pipeline.py
 ```
 
 \---
@@ -63,8 +63,8 @@ Phase-Space Reconstruction (PSR)
 Sliding Windows
         ↓
 Shared Encoder (RNN)
-       / \\
-      /   \\
+       / \\\\
+      /   \\\\
 Classification   Forecasting
       ↓             ↓
 Regime Label   Future Trajectory
@@ -87,7 +87,7 @@ pip install -r requirements.txt
 ## ▶️ Run
 
 ```
-PYTHONPATH=src python scripts/run\_experiment.py
+PYTHONPATH=src python scripts/run\\\_experiment.py
 ```
 
 \---
@@ -97,7 +97,7 @@ PYTHONPATH=src python scripts/run\_experiment.py
 Results saved in:
 
 ```
-psr\_ssm\_outputs/
+psr\\\_ssm\\\_outputs/
 ```
 
 Includes plots, metrics, and evaluation files.
@@ -108,28 +108,28 @@ Includes plots, metrics, and evaluation files.
 
 If you use this repository in your research, please cite:
 
-> \*\*Hamid Ismail, Ahmad Harb, and Marwan Bikdash.\*\*  
+> \\\*\\\*Hamid Ismail, Ahmad Harb, and Marwan Bikdash.\\\*\\\*  
 
-> \*Attention-Based Multitask Learning with Phase-Space Reconstruction for Early Detection of Instability and Chaos in the Lorenz System.\*  
+> \\\*Attention-Based Multitask Learning with Phase-Space Reconstruction for Early Detection of Instability and Chaos in the Lorenz System.\\\*  
 
-> \*\*IEEE Access\*\*, 2026.  
+> \\\*\\\*IEEE Access\\\*\\\*, 2026.  
 
 > 🔗 Paper: https://ieeexplore.ieee.org/abstract/document/11570096
 
 ```bibtex
 @article{Ismail2026IEEEAccess,
 
-&#x20; author    = {Hamid Ismail and Ahmad Harb and Marwan Bikdash},
+\&#x20; author    = {Hamid Ismail and Ahmad Harb and Marwan Bikdash},
 
-&#x20; title     = {Attention-Based Multitask Learning with Phase-Space Reconstruction for Early Detection of Instability and Chaos in the Lorenz System},
+\&#x20; title     = {Attention-Based Multitask Learning with Phase-Space Reconstruction for Early Detection of Instability and Chaos in the Lorenz System},
 
-&#x20; journal   = {IEEE Access},
+\&#x20; journal   = {IEEE Access},
 
-&#x20; year      = {2026},
+\&#x20; year      = {2026},
 
-&#x20; url       = {https://ieeexplore.ieee.org/abstract/document/11570096},
+\&#x20; url       = {https://ieeexplore.ieee.org/abstract/document/11570096},
 
-&#x20; note      = {Available at: https://ieeexplore.ieee.org/abstract/document/11570096}
+\&#x20; note      = {Available at: https://ieeexplore.ieee.org/abstract/document/11570096}
 
 }
 ```
