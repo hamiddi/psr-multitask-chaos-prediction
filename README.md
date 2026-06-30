@@ -108,29 +108,19 @@ Includes plots, metrics, and evaluation files.
 
 If you use this repository in your research, please cite:
 
-> \\\*\\\*Hamid Ismail, Ahmad Harb, and Marwan Bikdash.\\\*\\\*  
-
-> \\\*Attention-Based Multitask Learning with Phase-Space Reconstruction for Early Detection of Instability and Chaos in the Lorenz System.\\\*  
-
-> \\\*\\\*IEEE Access\\\*\\\*, 2026.  
-
-> 🔗 Paper: https://ieeexplore.ieee.org/abstract/document/11570096
+> **Hamid Ismail, Ahmad Harb, and Marwan Bikdash.**  
+> *Attention-Based Multitask Learning with Phase-Space Reconstruction for Early Detection of Instability and Chaos in the Lorenz System.*  
+> **IEEE Access**, 2026.  
+> **Paper:** https://ieeexplore.ieee.org/abstract/document/11570096
 
 ```bibtex
 @article{Ismail2026IEEEAccess,
-
-\&#x20; author    = {Hamid Ismail and Ahmad Harb and Marwan Bikdash},
-
-\&#x20; title     = {Attention-Based Multitask Learning with Phase-Space Reconstruction for Early Detection of Instability and Chaos in the Lorenz System},
-
-\&#x20; journal   = {IEEE Access},
-
-\&#x20; year      = {2026},
-
-\&#x20; url       = {https://ieeexplore.ieee.org/abstract/document/11570096},
-
-\&#x20; note      = {Available at: https://ieeexplore.ieee.org/abstract/document/11570096}
-
+  author  = {Hamid Ismail and Ahmad Harb and Marwan Bikdash},
+  title   = {Attention-Based Multitask Learning with Phase-Space Reconstruction for Early Detection of Instability and Chaos in the Lorenz System},
+  journal = {IEEE Access},
+  year    = {2026},
+  url     = {https://ieeexplore.ieee.org/abstract/document/11570096},
+  doi     = {10.1109/ACCESS.2026.3596339}
 }
 ```
 
