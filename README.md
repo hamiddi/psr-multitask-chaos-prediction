@@ -154,10 +154,13 @@ If you use this repository in your research, please cite:
 > **Paper:** https://ieeexplore.ieee.org/abstract/document/11570096
 
 ```bibtex
-@article{ismail2026psrchaos,
-  title={Attention-Based Multitask Learning with Phase-Space Reconstruction for Early Detection of Instability and Chaos in the Lorenz System},
-  author={Ismail, Hamid and Harb, Ahmad and Bikdash, Marwan},
-  year={2026}
+@article{Ismail2026IEEEAccess,
+  author  = {Hamid Ismail and Ahmad Harb and Marwan Bikdash},
+  title   = {Attention-Based Multitask Learning with Phase-Space Reconstruction for Early Detection of Instability and Chaos in the Lorenz System},
+  journal = {IEEE Access},
+  year    = {2026},
+  url     = {https://ieeexplore.ieee.org/abstract/document/11570096},
+  doi     = {10.1109/ACCESS.2026.3596339}
 }
 ```
 
