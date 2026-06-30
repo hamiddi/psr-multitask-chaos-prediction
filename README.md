@@ -147,11 +147,11 @@ These files support the revision by adding:
 
 
 ## 📄 Citation
-
-```
-H. Ismail, A. Harb, and M. Bikdash,
-“Attention-Based Multitask Learning with Phase-Space Reconstruction for Early Detection of Instability and Chaos in the Lorenz System,” 2026.
-```
+If you use this repository in your research, please cite:
+> **Hamid Ismail, Ahmad Harb, and Marwan Bikdash.**  
+> *Attention-Based Multitask Learning with Phase-Space Reconstruction for Early Detection of Instability and Chaos in the Lorenz System.*  
+> **IEEE Access**, 2026.  
+> **Paper:** https://ieeexplore.ieee.org/abstract/document/11570096
 
 ```bibtex
 @article{ismail2026psrchaos,
